@@ -382,37 +382,37 @@ Create test fixtures in `tools/c7n_org/tests/fixtures/`:
 
 ### Day 1: Core Implementation
 
-**Hour 1-2: Setup and Skeleton**
-- [ ] Create validate command structure in cli.py
-- [ ] Add all Click options with proper help text
-- [ ] Implement basic logging setup
-- [ ] Test command is registered: `c7n-org validate --help`
+**Hour 1-2: Setup and Skeleton** ✅
+- [x] Create validate command structure in cli.py
+- [x] Add all Click options with proper help text
+- [x] Implement basic logging setup
+- [x] Test command is registered: `c7n-org validate --help`
 
-**Hour 3-4: Configuration Loading**
-- [ ] Implement account config loading
-- [ ] Implement policy config loading
-- [ ] Add error handling for missing/invalid files
-- [ ] Test config loading with sample files
+**Hour 3-4: Configuration Loading** ✅
+- [x] Implement account config loading
+- [x] Implement policy config loading
+- [x] Add error handling for missing/invalid files
+- [x] Test config loading with sample files
 
-**Hour 5-6: Core Validation Logic**
-- [ ] Decide on Option A (reuse) vs Option B (inline)
-- [ ] Implement chosen approach
-- [ ] Test with valid policy file
-- [ ] Test with invalid policy file
+**Hour 5-6: Core Validation Logic** ✅
+- [x] Decide on Option A (reuse) vs Option B (inline) - Chose inline (Option B)
+- [x] Implement chosen approach
+- [x] Test with valid policy file
+- [x] Test with invalid policy file
 
-**Hour 7-8: Policy Filtering**
-- [ ] Implement policy name filtering (-p)
-- [ ] Implement resource type filtering (--resource)
-- [ ] Implement policy tag filtering (-l)
-- [ ] Test filters work correctly
+**Hour 7-8: Policy Filtering** ✅
+- [x] Implement policy name filtering (-p)
+- [x] Implement resource type filtering (--resource)
+- [x] Implement policy tag filtering (-l)
+- [x] Test filters work correctly
 
 ### Day 2: Testing and Polish
 
-**Hour 1-3: Unit Tests**
-- [ ] Write all 10 unit tests listed above
-- [ ] Create test fixtures
-- [ ] Ensure all tests pass
-- [ ] Achieve ≥90% code coverage for validate function
+**Hour 1-3: Unit Tests** ✅
+- [x] Write all 10 unit tests listed above
+- [x] Create test fixtures
+- [x] Ensure all tests pass
+- [x] Achieve ≥90% code coverage for validate function
 
 **Hour 4-5: Integration Testing**
 - [ ] Test with real Cloud Custodian policies
