@@ -414,23 +414,23 @@ Create test fixtures in `tools/c7n_org/tests/fixtures/`:
 - [x] Ensure all tests pass
 - [x] Achieve ≥90% code coverage for validate function
 
-**Hour 4-5: Integration Testing**
-- [ ] Test with real Cloud Custodian policies
-- [ ] Test multi-cloud scenarios (AWS, Azure, GCP)
-- [ ] Test edge cases and error conditions
-- [ ] Fix any bugs discovered
+**Hour 4-5: Integration Testing** ✅
+- [x] Test with real Cloud Custodian policies
+- [x] Test multi-cloud scenarios (AWS, Azure, GCP)
+- [x] Test edge cases and error conditions
+- [x] Fix any bugs discovered
 
-**Hour 6-7: Error Messages and UX**
-- [ ] Review all error messages for clarity
-- [ ] Ensure consistent formatting
-- [ ] Add helpful suggestions where possible
-- [ ] Test verbose vs normal output
+**Hour 6-7: Error Messages and UX** ✅
+- [x] Review all error messages for clarity
+- [x] Ensure consistent formatting
+- [x] Add helpful suggestions where possible
+- [x] Test verbose vs normal output
 
-**Hour 8: Documentation**
-- [ ] Update c7n-org README with validate command
-- [ ] Add usage examples
-- [ ] Document limitations (no account-specific validation)
-- [ ] Add to --help output
+**Hour 8: Documentation** ✅
+- [x] Update c7n-org README with validate command
+- [x] Add usage examples
+- [x] Document limitations (no account-specific validation)
+- [x] Add to --help output
 
 ---
 
@@ -438,17 +438,17 @@ Create test fixtures in `tools/c7n_org/tests/fixtures/`:
 
 Before submitting for review:
 
-- [ ] All unit tests pass
-- [ ] Integration tests pass
-- [ ] Lint checks pass (`make lint` in project root)
-- [ ] Code follows project style guidelines
-- [ ] Error messages are clear and actionable
-- [ ] Logging is appropriate (not too verbose, not too quiet)
-- [ ] Exit codes are correct (0 = success, 1 = failure)
-- [ ] Help text is complete and accurate
-- [ ] No hardcoded values or magic numbers
-- [ ] Proper exception handling
-- [ ] Documentation is updated
+- [x] All unit tests pass
+- [x] Integration tests pass
+- [x] Lint checks pass (`make lint` in project root)
+- [x] Code follows project style guidelines
+- [x] Error messages are clear and actionable
+- [x] Logging is appropriate (not too verbose, not too quiet)
+- [x] Exit codes are correct (0 = success, 1 = failure)
+- [x] Help text is complete and accurate
+- [x] No hardcoded values or magic numbers
+- [x] Proper exception handling
+- [x] Documentation is updated
 
 ---
 
